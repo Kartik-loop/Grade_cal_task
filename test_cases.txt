@@ -1,0 +1,15 @@
+TEST CASE 1: Valid High Score
+Input Name: Kartik
+Input Marks: 80
+Expected Output: Grade B, Message "Very good Kartik keep it up"
+Result: Pass
+
+TEST CASE 2: Invalid Input (High)
+Input Marks: 123
+Expected Output: "Invalid marks! Please enter a number between 0 and 100."
+Result: Pass (Loop prompted for input again)
+
+TEST CASE 3: Invalid Input (Text)
+Input Marks: "abc"
+Expected Output: "Invalid input! Please enter a number, not text."
+Result: Pass (Loop prompted for input again)
